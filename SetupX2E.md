@@ -77,7 +77,7 @@ The response will be `123450000000000000000` wei, means 123.45 MXC.
 Please replace the email address with your own and send the following command to purchase one PID via MEP802.
 
 ```
-cast send 0x28479D68cD3ef5661BDB7505EFD1712D5D0951F6 "producePid(string,uint256,uint256)" "yemeha8020@mposhop.com" 1 3 --rpc-url https://geneva-rpc.moonchain.com --private-key 318dee0c207c20f4767e342a52e876b816379334a53277773c783b0e9348d368 --value 123450000000000000000
+cast send 0x28479D68cD3ef5661BDB7505EFD1712D5D0951F6 "producePid(string,uint256,uint256)" "yemeha8020@mposhop.com" 1 2 --rpc-url https://geneva-rpc.moonchain.com --private-key 318dee0c207c20f4767e342a52e876b816379334a53277773c783b0e9348d368 --value 123450000000000000000
 ```
 
 Wait for few minutes after the transaction done, you will receive a email and attached with the PID csv file.
